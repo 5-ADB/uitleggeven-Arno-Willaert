@@ -51,7 +51,7 @@ const sponsorlijst = [
   {
     id: 6,
     type: "small",
-    info: { img: "logge.jpg", url: "https://www.google.be" },
+    info: { img: "logge.jpg", url: "https://www.google.be" }, 
   },
 ];
 
@@ -94,4 +94,8 @@ sponsorlijst
 
 function openInNewTab(url) {
   window.open(url, "_blank").focus();
+}
+
+function dissapear() {
+  document.getElementById(sponsorlijst.id(3)).style.display = "none"
 }
