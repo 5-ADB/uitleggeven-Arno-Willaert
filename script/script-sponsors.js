@@ -97,5 +97,5 @@ function openInNewTab(url) {
 }
 
 function dissapear() {
-  document.getElementById(sponsorlijst.id(3)).style.display = "none"
+  document.getElementById(sponsorlijst.id(3)).style.display = "hidden"
 }
